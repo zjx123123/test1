@@ -22,8 +22,8 @@ public class TokenManager {
 
 	public String getToken() {
 		// 在微信的公众号没有认证通过之前，先使用开发者工具里面的测试号来进行测试
-		String appId = "wx16043d62ca188fa2";
-		String appSecret = "8a819383b7ccbc72b77c064bd2560474";
+		String appId = "wxd96833868b94a40f";
+		String appSecret = "dff68ce02c88622fd855babb2469268d";
 		String url = "https://api.weixin.qq.com/cgi-bin/token"//
 				+ "?grant_type=client_credential"//
 				+ "&appid=" + appId//
